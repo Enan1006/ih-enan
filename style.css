@@ -49,6 +49,7 @@ hr {
     color: #0FBF61;
     background-size: 20px 10px;
     background-image: url(images/Rectangle\ 138.png);
+    overflow-x: hidden;
 }
 
 .primary-btn {
