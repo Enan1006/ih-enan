@@ -28,7 +28,9 @@ h4 {
 }
 
 hr {
-    border-top: 1px dashed #0FBF61;
+    border-top: 2px dashed #0FBF61;
+    width: 60%;
+    justify-content: center;
 }
 /*************Navbar Section****************/
 
@@ -47,13 +49,14 @@ hr {
 
 .welcome-tag {
     color: #0FBF61;
-    background-size: 20px 10px;
     background-image: url(images/Rectangle\ 138.png);
-    overflow-x: hidden;
+    padding: 10px 15px;
+    width: 100px;
 }
 
 .primary-btn {
     font-size: 14px;
+    color: #0FBF61;
     padding: 12px 35px;
     text-decoration: none;
     border: 2px solid #0FBF61;
@@ -73,9 +76,10 @@ hr {
 }
 
 #hero img {
-    width: 100%;
+    max-width: 100%;
     margin-top: -20%;
     margin-left: 40%;
+    overflow: hidden;
 }
 
 
@@ -93,9 +97,10 @@ hr {
 }
 
 .about-me {
-    background-image: url('images/Rectangle\ 139.png');
+    background-image: url(images/Rectangle\ 139.png);
     padding: 10px 15px;
     color: #0FBF61;
+    width: 70px;
 }
 
 .left-half {
@@ -117,11 +122,14 @@ hr {
     background-position-x: right;
     background-position-y: bottom;
 }
+
+
 .icon-box {
-    padding: 10px 50px;
-    margin: 0px 10px;
+    padding: 50px 50px;
+    margin: 60px 10px;
     border-radius: 10px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 h2.provided-service {
@@ -139,3 +147,19 @@ h2.provided-service {
     margin-left: auto;
     margin-right: auto;
 }
+
+.welcome-tags {
+    color: #0FBF61;
+    background-image: url(images/Rectangle\ 138.png);
+    padding: 10px 15px;
+    width: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/****************Skill Section***********************/
+
