@@ -1,0 +1,140 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+h1 {
+    font-family: 'Pushster', cursive;
+    font-size: 60px;
+}
+
+h1 span {
+    color: #0FBF61;
+}
+
+h3 {
+    color: #0FBF61;
+    font-size: 16px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+hr {
+    border-top: 1px dashed #0FBF61;
+}
+/*************Navbar Section****************/
+
+#navbar img {
+    width: 10%;
+}
+
+
+/*************Hero Section****************/
+
+
+.flex-grid {
+    display: flex;
+    padding: 0px 30px;
+}
+
+.welcome-tag {
+    color: #0FBF61;
+    background-size: 20px 10px;
+    background-image: url(images/Rectangle\ 138.png);
+}
+
+.primary-btn {
+    font-size: 14px;
+    padding: 12px 35px;
+    text-decoration: none;
+    border: 2px solid #0FBF61;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+}
+
+.primary-btn:hover {
+    background-color: #0FBF61;
+    color: white;
+}
+
+#hero img {
+    width: 100%;
+    margin-top: -20%;
+    margin-left: 40%;
+}
+
+
+
+
+/*************About Me section****************/
+
+#about-me {
+    display: inline-flex;
+    padding: 0px 20px;
+}
+
+#about-me img {
+    width: 50%;
+}
+
+.about-me {
+    background-image: url('images/Rectangle\ 139.png');
+    padding: 10px 15px;
+    color: #0FBF61;
+}
+
+.left-half {
+    width: 50%;
+}
+
+.right-half {
+    width: 50%;
+}
+
+
+
+/*********************************Icon-box**************/
+
+.icon-boxes {
+    display: flex;
+    background-image: url('/images/Service-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.icon-box {
+    padding: 10px 50px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h2.provided-service {
+    text-align: center;
+}
+
+.icon-box img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-box button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
